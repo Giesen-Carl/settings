@@ -1,0 +1,69 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "extensions.ignoreRecommendations": false,
+    "[typescript][typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "explicit"
+        },
+        // "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "workbench.tree.indent": 24,
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.mouseWheelZoom": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "terminal.integrated.automationProfile.linux": {},
+    "terminal.integrated.automationProfile.windows": {},
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Cygwin": {
+            "path": "C:\\cygwin64\\bin\\bash.exe",
+            "args": [
+                "--login"
+            ]
+        },
+        "Cygwin4VS": {
+            "path": "C:\\cygwin64\\Cygwin4VSCode.bat",
+            "overrideName": true,
+            "color": "terminal.ansiYellow",
+        },
+    },
+    "terminal.integrated.env.windows": {},
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.inlineSuggest.enabled": true,
+    "gitlens.views.remotes.branches.layout": "list",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.codeActionsOnSave": {},
+    "editor.formatOnSave": true,
+    "json.schemas": [],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.settings.applyToAllProfiles": [],
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "gitlens.defaultDateFormat": "",
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}
